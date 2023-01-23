@@ -10,6 +10,7 @@ phases:
     runtime-versions:
       nodejs: 14
     commands:
+      - n 16
       - echo installing dependencies...
       - npm install
       - npm i -g @angular/cli
